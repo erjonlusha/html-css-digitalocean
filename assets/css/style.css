@@ -11,7 +11,9 @@
     text-decoration: none;
     color: #3587ff;
 }
-
+bg_grey {
+    background-color:  red!important;
+;}
 .jumbotron {
     background-color: #004AFF;
     color: white;
@@ -49,3 +51,6 @@ span.buttonText {
     /* Use the Roboto font that is loaded in the <head> */
     font-family: 'Roboto', sans-serif;
 }
+
+.border_left{border-left: 1px solid black;}
+.pl_5{padding-left: 8px;}
