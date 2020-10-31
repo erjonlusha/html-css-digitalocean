@@ -11,10 +11,10 @@
     text-decoration: none;
     color: #3587ff;
 }
-bg_grey {
-    background-color:  red!important;
+.bg_grey {
+    background-color: #f3f5f9;
 ;}
-.jumbotron {
+.jumbotron, .bg_blueg{
     background-color: #004AFF;
     color: white;
 }
@@ -54,3 +54,26 @@ span.buttonText {
 
 .border_left{border-left: 1px solid black;}
 .pl_5{padding-left: 8px;}
+.wi_100{width: 100%;}
+
+.text_end{text-align: end;}
+.vertical{
+    height: 100%;
+    /* vertical-align: middle; */
+}
+
+.pallino{
+    height: 2px;
+    width: 2px;
+    border-radius: 50%;
+    border-color: blue;
+    background-color: cadetblue ;
+}
+
+.riga>a{text-decoration: none;}
+
+.riga{
+    color: white;
+    border-bottom: 1px solid white;
+    line-height: 2;
+}
