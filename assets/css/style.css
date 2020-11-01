@@ -13,7 +13,12 @@
 }
 .bg_grey {
     background-color: #f3f5f9;
-;}
+}
+
+footer {
+    background-color: #031C4E;
+}
+
 .jumbotron, .bg_blueg{
     background-color: #004AFF;
     color: white;
@@ -76,4 +81,23 @@ span.buttonText {
     color: white;
     border-bottom: 1px solid white;
     line-height: 2;
+}
+    
+.ft_riga>li>a{
+    text-decoration: none;
+    color:white;
+    line-height: 2em;
+}
+
+.helper_chat {
+    height: 100%;    
+    background-color: red;
+    color: white;
+    position: relative;
+}
+.helper_chat>img{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    
 }
