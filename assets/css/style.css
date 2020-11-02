@@ -1,25 +1,55 @@
-.logo_nav > img {width: 150px;}
-.navbar, .bg_grey {background-color: #F3F5F9;}
-.ft_riga>li>a, .riga, .line_h, ul.line_h>li{line-height: 2em;}
-a{text-decoration: none!important;}
-.jumbotron{margin-bottom: 0;}
+/* Utility classes */
+.font_weight{font-weight: 600;}
+.border_left{border-left: 1px solid black;}
+.wi_100, .form>div, #customBtn {width: 100%;}
+.text_end{text-align: end;}
 
 
-.btn_b_blue{
-    background-color: white;
-    border: 1px solid #3587FF;
-    border-radius: 5px;;
+/* Color: Text / Bacground */
+footer {background-color: #031C4E;}
+.ft_riga>li>a, .riga, .jumbotron, .bg_blueg, .helper_chat {color:  white;}
+.jumbotron{background-color: #004AFF;}
+.bg_blueg {
+    background: rgb(12, 1, 135);
+    background: linear-gradient(4deg, rgba(12, 1, 135, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 31, 255, 0.9136029411764706) 100%);
 }
-.btn_b_blue>a{color: #3587ff;}
+footer small {color: #7a859d;}
+.Gbtn_color {color: #006AFf!important;}
+.cr_bl_gr {color: #6F7B97;}
+.cr_blue, .row.cr_blue {color: #031C4E!important;}
+.riga.row>div>a{color: #00D6D2;}
+.riga.row>div:hover a {color: blue;}
+/* Color: Text / Bacground */
 
-.form>* {display: block;}
+/* Margin & Padding classes */
+.mtb_10{margin: 10px 0;}
+.m_10{margin: 10px;}
+.mlr_10{margin: 0 10px;}
+.mt_10{margin-top: 10px;}
+.mb_10{margin-bottom: 10px;}
 
-.card{
-    background-color: white;
-    border-radius: 5px;
-    height: 325px;
-    
-}
+.p_8{padding: 8px;}
+
+.pt_10{padding-top: 10px;}
+
+.plr_20{padding: 20px;}
+.ptb_20 {padding: 20px 0;}
+.pb_20 {padding-bottom: 20px;}
+.pt_10 {padding-top: 20px;}
+
+.ptb_40{padding: 40px 0;}
+.pb_40{padding: 0 0 40px 0;}
+.plr_40{padding: 0 40px;}
+.pr_40 {padding: 0 40px 0 0;}
+
+.ptb_80{padding: 80px 0;}
+.pb_80 {padding: 0 0 80px 0;}
+.pr_80 {padding: 0 80px 0 0;}
+/* /Margin & Padding classes */
+/* /Utility classes */
+
+
+/* Google sign-in button */
 #customBtn {
     display: inline-block;
     background: white;
@@ -39,14 +69,32 @@ span.icon {
 span.buttonText {
     vertical-align: middle;
     font-weight: bold;
-    /* Use the Roboto font that is loaded in the <head> */
-    font-family: 'Roboto', sans-serif;
+}
+/* /Google sign-in button */
+
+.logo_nav > img {width: 150px;}
+.navbar, .bg_grey {background-color: #F3F5F9;}
+.ft_riga>li>a, .riga, .line_h, ul.line_h>li{line-height: 2em;}
+a{text-decoration: none!important;}
+.jumbotron{margin-bottom: 0;}
+
+.btn_b_blue{
+    background-color: white;
+    border: 1px solid #3587FF;
+    border-radius: 5px;;
 }
 
-.border_left{border-left: 1px solid black;}
-.wi_100, .form>div, #customBtn {width: 100%;}
+.btn_b_blue>a{color: #3587ff;}
+.form{width: 100%;}
+.form>* {display: block;}
 
-.text_end{text-align: end;}
+.card{
+    background-color: white;
+    border-radius: 5px;
+    height: 325px;
+    
+}
+
 .vertical{
     margin-top: 10%;
     font-weight: 600;
@@ -71,7 +119,6 @@ span.buttonText {
     font-weight: 600;
 }
 
-.font_weight{font-weight: 600;}
 
 span:nth-child(2)>i {background-color: blue;}
 span>i.fa-circle {
@@ -87,59 +134,9 @@ span>i.fa-circle {
     bottom: 30px;
 }
 
-/* Color: Text / Bacground */
-footer {background-color: #031C4E;}
-.ft_riga>li>a, .riga, .jumbotron, .bg_blueg, .helper_chat {color:  white;}
-.jumbotron{background-color: #004AFF;}
-.bg_blueg {
-    background: rgb(12, 1, 135);
-    background: linear-gradient(4deg, rgba(12, 1, 135, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 31, 255, 0.9136029411764706) 100%);
-}
-footer small {color: #7a859d;}
-.Gbtn_color {color: #006AFf!important;}
-.cr_bl_gr {color: #6F7B97;}
-.cr_blue, .row.cr_blue {color: #031C4E!important;}
-.riga.row>div>a{color: #00D6D2;}
-.riga.row>div:hover a {color: blue;}
-/* Color: Text / Bacground */
-
-
-.m_5{margin: 5px;}
-
-.mtb_10{margin: 10px 0;}
-.m_10{margin: 10px;}
-.mlr_10{margin: 0 10px;}
-.mt_10{margin-top: 10px;}
-.mb_10{margin-bottom: 10px;}
-
-.p_5{padding: 8px;}
-.pl_5{padding-left: 8px;}
-
-.pt_10{padding-top: 10px;}
-.pb_10{padding-bottom: 10px;}
-.p_10 {padding: 10px;}
-
-.plr_20{padding: 20px;}
-.ptb_20 {padding: 20px 0;}
-.pb_20 {padding-bottom: 20px;}
-.pt_10 {padding-top: 20px;}
-
-.ptb_40{padding: 40px 0;}
-.pb_40{padding: 0 0 40px 0;}
-.plr_40{padding: 0 40px;}
-.pr_40 {padding: 0 40px 0 0;}
-
-.p_80{padding: 80px;}
-.ptb_80{padding: 80px 0;}
-.plr_80 {padding: 0 80px;}
-.pt_80 {padding: 80px 0 0 0;}
-.pb_80 {padding: 0 0 80px 0;}
-.pr_80 {padding: 0 80px 0 0;}
-.pl_80 {padding: 0 0 0 80px;}
 
 .dropdown{display: none;}
-
-@media screen and (max-width: 1199px) and (min-width: 768px) {
+@media screen and (max-width: 1199px) {
     .menu_right,    .menu_center {display:none;}
     .glyphicon-menu-hamburger{
         line-height: 100%;
@@ -166,6 +163,11 @@ footer small {color: #7a859d;}
         text-align: center;
         background-color: #579AFF;
     }
+    .fl_right {
+        float: right;
+    }
+}
+@media screen and (max-width: 1199px) and (min-width: 768px) {
     .jumbotron h1{
          font-size: 40px;
         text-align: left;
@@ -206,5 +208,4 @@ footer small {color: #7a859d;}
     .col_xs_offset_9 {margin-left: calc((100%/12) *9);}
     .col_xs_offset_10 {margin-left: calc((100%/12) *10);}
     .col_xs_offset_11 {margin-left: calc((100%/12) *11);}
-}
 }
