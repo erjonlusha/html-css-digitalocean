@@ -22,12 +22,13 @@ footer small {color: #7a859d;}
 /* Color: Text / Bacground */
 
 /* Margin & Padding classes */
+.ml_5{margin-left: 10px;}
+.mr_5{margin-right: 10px;}
 .mtb_10{margin: 10px 0;}
 .m_10{margin: 10px;}
 .mlr_10{margin: 0 10px;}
 .mt_10{margin-top: 10px;}
 .mb_10{margin-bottom: 10px;}
-
 .p_8{padding: 8px;}
 
 .pt_10{padding-top: 10px;}
